@@ -1,4 +1,7 @@
-Script for Rails application to do some smell analyisis using reek.
+= reekmetric
+
+Script to do some smell analyisis using reek on Rails applications.
+For more information about reek http://wiki.github.com/kevinrutherford/reek
 
 == Installation
 Before you use it, you must install reek
@@ -10,6 +13,9 @@ Just put it on your RAILS_ROOT folder and run it
 
 ./reekmetric.sh
 
-If you want a detailed output just run
+If you want a detailed reek output just run
 
 ./reekmetric.sh detailed
+
+== TODO
+Optimize the script! :) I needed the results ASAP so I did it the fastest way I could
